@@ -18,6 +18,116 @@ TBD
 
 ## Related 3GPP Specifications
 
+### MBS Conceptual Model
+The conceptual model below sets out selected aspects of the 5G MBS system from the service aspects (SA) to the radio access network (RAN).
+
+<table width="680">
+<tbody>
+<tr>
+<td width="47">
+<p><strong>SA4</strong></p>
+</td>
+<td width="85">
+<p><strong>TS&nbsp;26.502, TS 26.517</strong></p>
+</td>
+<td colspan="4" width="548">
+<p>MBS User Services session</p>
+</td>
+</tr>
+<tr>
+<td rowspan="4" width="47">
+<p><strong>SA2</strong></p>
+</td>
+<td rowspan="4" width="85">
+<p><strong>TS&nbsp;23.247</strong></p>
+</td>
+<td colspan="3" width="369">
+<p>Multicast communication service</p>
+</td>
+<td width="180">
+<p>Broadcast communication service</p>
+</td>
+</tr>
+<tr>
+<td colspan="3" width="369">
+<p>Multicast MBS session</p>
+</td>
+<td width="180">
+<p>Broadcast MBS session</p>
+</td>
+</tr>
+<tr>
+<td width="132">
+<p>5GC individual MBS traffic delivery (method)</p>
+</td>
+<td colspan="2" width="236">
+<p>5GC shared MBS traffic delivery (method)</p>
+</td>
+<td width="180">
+<p>5GC shared MBS traffic delivery (method)</p>
+</td>
+</tr>
+<tr>
+<td width="132">
+<p>PDU session</p>
+</td>
+<td colspan="2" width="236">
+<p>Shared transport</p>
+</td>
+<td width="180">
+<p>Shared transport</p>
+</td>
+</tr>
+<tr>
+<td width="47">
+<p><strong>RAN2</strong></p>
+</td>
+<td width="85">
+<p><strong>TS&nbsp;38.300, TS&nbsp;38.331</strong></p>
+</td>
+<td colspan="2" width="198">
+<p>Point-to-point (PTP) RAN delivery method</p>
+</td>
+<td width="170">
+<p>Point-to-multipoint (PTM) RAN delivery method</p>
+</td>
+<td width="180">
+<p>Point-to-multipoint (PTM) RAN delivery method</p>
+</td>
+</tr>
+<tr>
+<td width="47">
+<p><strong>RAN1</strong></p>
+</td>
+<td width="85">
+<p><strong>TS 38.213, TS 38.214?</strong></p>
+</td>
+<td colspan="2" width="198">
+<p><em>(Unicast delivery mode)</em></p>
+</td>
+<td width="170">
+<p>Delivery Mode 1 (Multicast)</p>
+</td>
+<td width="180">
+<p>Delivery Mode 2 (Broadcast)</p>
+</td>
+</tr>
+<tr>
+<td width="47">&nbsp;</td>
+<td width="85">&nbsp;</td>
+<td colspan="3" width="369">
+<p>RRC_CONNECTED</p>
+</td>
+<td width="180">
+<p>RRC_CONNECTED</p>
+<p>RRC_IDLE</p>
+<p>RRC_INACTIVE</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
 This is a list of specifications in the scope of 5G Multicast Broadcast Services.
 
 ### MBS User Services

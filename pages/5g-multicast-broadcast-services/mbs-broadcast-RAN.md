@@ -72,6 +72,9 @@ nav_order: 2
 
 ## PDCP: MBS Broadcast
 
+{.note}
+This section is not complete yet.
+
 # Annex: RRC messages ASN.1
 For definitions refer to **[3GPP TS 38.331](https://www.3gpp.org/DynaReport/38331.htm) Clause 6.2.2**
 ## SIB20
